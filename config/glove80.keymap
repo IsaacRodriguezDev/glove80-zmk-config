@@ -150,7 +150,7 @@
         layout {
             bindings = <
 &trans           &trans          &trans                &trans                 &trans                                                                                                              &trans                &trans            &trans             &trans                 &trans
-&trans           &kp GRAVE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp COMMA                                                                          &trans         &trans                &trans            &trans             &trans                 &trans
+&trans           &kp GRAVE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp COMMA                                                                          &trans         &sk LEFT_SHIFT        &sk LEFT_CONTROL  &sk LEFT_ALT       &sk RIGHT_WIN          &trans
 &kp EXCLAMATION  &kp LEFT_BRACE  &kp SQT               &kp DOUBLE_QUOTES      &kp RIGHT_BRACE   &kp QUESTION                                                                       &kp SEMICOLON  &kp LSHFT             &kp LEFT_CONTROL  &kp LEFT_ALT       &kp LGUI               &trans
 &kp HASH         &kp LCTRL       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp ASTRK                                                                          &kp PERIOD     &kp BACKSPACE         &kp TAB           &kp SPACE          &kp ENTER              &trans
 &kp AT_SIGN      &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp SLASH     &kp NON_US_BACKSLASH  &kp PERIOD  &kp ASTRK  &trans  &trans  &trans  &kp SLASH      &kp DELETE            &kp LS(TAB)       &trans             &trans                 &trans
