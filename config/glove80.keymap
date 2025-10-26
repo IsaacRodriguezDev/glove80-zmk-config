@@ -156,5 +156,16 @@
 &kp TILDE        &kp AMPERSAND   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                        &kp PERCENT           &kp COLON   &kp SEMI   &tog 4  &trans  &mo 4                  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans
             >;
         };
+
+        cursor {
+            bindings = <
+&trans     &trans      &trans     &trans         &trans                                                                                                             &trans      &trans          &trans          &trans           &trans
+&kp ESC    &kp RET     &kp SPACE  &kp TAB        &kp DEL         &kp LG(EQUAL)                                                                       &kp LG(EQUAL)  &kp BSPC    &trans          &trans          &trans           &trans
+&kp LC(F)  &kp LG(C)   &kp LC(Z)  &kp LS(LC(Z))  &kp BSPC        &kp LC(X)                                                                           &kp LC(X)      &kp BSPC    &kp LC(Z)       &kp LS(LC(Z))   &kp LCTRL        &kp LGUI
+&kp LC(F)  &kp LG(C)   &kp LALT   &kp BSPC       &kp LEFT_SHIFT  &kp LC(C)                                                                           &kp LC(C)      &kp LEFT    &kp UP_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans     &trans      &trans     &trans         &kp LC(F)       &kp LC(V)      &kp LA(TAB)  &kp LG(TAB)  &kp LG(C)  &kp LGUI  &trans        &trans  &kp LC(V)      &kp HOME    &kp PAGE_UP     &kp PAGE_DOWN   &kp END          &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS
+&trans     &kp K_PREV  &trans     &trans         &kp K_NEXT                     &tog 5       &kp LC(TAB)  &kp TAB    &trans    &kp K_SELECT  &trans                 &kp K_FIND  &kp K_PREVIOUS  &kp K_NEXT      &trans           &trans
+            >;
+        };
     };
 };
